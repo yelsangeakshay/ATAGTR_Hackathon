@@ -3,7 +3,9 @@
 <suite name="AmazonSuite">
   <test name="AmazonTest">
     <classes>
-      <class name="Mobile_Test_Class.Mobile_Test_Class"/>
+      <class name="API_Test_Class.TestNG_Annotation_NestedJSON_POJO_GET_API_RestAssured_Example"/>
+      <class name="API_Test_Class.TestNG_Annotation_POJO_RestAsssured_Example"/>
+      <class name="UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks"/>
     </classes>
   </test> <!-- AmazonTest -->
 </suite> <!-- AmazonSuite -->
