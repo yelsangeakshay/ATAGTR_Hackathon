@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="0" failed="1" skipped="5">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-23T00:02:41 IST" name="AmazonSuite" finished-at="2024-11-23T00:02:42 IST" duration-ms="420">
+    <groups>
+    </groups>
+    <test started-at="2024-11-23T00:02:41 IST" name="AmazonTest" finished-at="2024-11-23T00:02:42 IST" duration-ms="420">
+      <class name="Mobile_Test_Class.Mobile_Test_Class">
+        <test-method is-config="true" signature="startup()[pri:0, instance:Mobile_Test_Class.Mobile_Test_Class@6f15d60e]" started-at="2024-11-23T00:02:41 IST" name="startup" finished-at="2024-11-23T00:02:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="openBrowser()[pri:0, instance:Mobile_Test_Class.Mobile_Test_Class@6f15d60e]" started-at="2024-11-23T00:02:41 IST" name="openBrowser" description="Verify User should be abel to Open Mobile setting and Change APN setting " finished-at="2024-11-23T00:02:42 IST" duration-ms="411" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)" because "Mobile_Common_Utility.mobile_Common_Utilities.wait" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)" because "Mobile_Common_Utility.mobile_Common_Utilities.wait" is null
+at Mobile_Common_Utility.mobile_Common_Utilities.clickOnElement(mobile_Common_Utilities.java:95)
+at Mobile_Test_Class.Mobile_Test_Class.openBrowser(Mobile_Test_Class.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Mobile_Test_Class.Mobile_Test_Class@6f15d60e]" started-at="2024-11-23T00:02:42 IST" name="teardown" description="Verify user should clean data created during Automated Test" finished-at="2024-11-23T00:02:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Mobile_Test_Class.Mobile_Test_Class -->
+    </test> <!-- AmazonTest -->
+  </suite> <!-- AmazonSuite -->
+  <suite started-at="2024-11-23T00:02:41 IST" name="UI_API_Suite" finished-at="2024-11-23T00:02:41 IST" duration-ms="288">
+    <groups>
+    </groups>
+    <test started-at="2024-11-23T00:02:41 IST" name="UI_API_ParallelTest" finished-at="2024-11-23T00:02:41 IST" duration-ms="288">
+      <class name="UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks">
+        <test-method is-config="true" signature="testSetUp()[pri:0, instance:UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks@23e84203]" started-at="2024-11-23T00:02:41 IST" name="testSetUp" finished-at="2024-11-23T00:02:41 IST" duration-ms="74" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.yamlData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.yamlData" is null
+at UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks.testSetUp(TC_Amazon_Verify_Account_List_HyperLinks.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method signature="launchAmazon()[pri:0, instance:UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks@23e84203]" started-at="2024-11-23T00:02:41 IST" name="launchAmazon" description="Validate the URL Is Launched" finished-at="2024-11-23T00:02:41 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.yamlData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.yamlData" is null
+at UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks.testSetUp(TC_Amazon_Verify_Account_List_HyperLinks.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAmazon -->
+        <test-method signature="validateListHyperlinks()[pri:0, instance:UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks@23e84203]" started-at="2024-11-23T00:02:41 IST" name="validateListHyperlinks" description="Validate the Broken Links for Amazon Your Lists" finished-at="2024-11-23T00:02:41 IST" depends-on-methods="UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks.launchAmazon" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks.validateListHyperlinks() on instance UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks@23e84203 depends on not successfully finished methods 
+[UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks.launchAmazon() on instance UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks@23e84203]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks.validateListHyperlinks() on instance UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks@23e84203 depends on not successfully finished methods 
+[UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks.launchAmazon() on instance UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks@23e84203]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateListHyperlinks -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks@23e84203]" started-at="2024-11-23T00:02:41 IST" name="cleanup" finished-at="2024-11-23T00:02:41 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks -->
+      <class name="API_Test_Class.TestNG_Annotation_NestedJSON_POJO_GET_API_RestAssured_Example">
+        <test-method is-config="true" signature="testSetUp()[pri:0, instance:API_Test_Class.TestNG_Annotation_NestedJSON_POJO_GET_API_RestAssured_Example@76494737]" started-at="2024-11-23T00:02:41 IST" name="testSetUp" finished-at="2024-11-23T00:02:41 IST" duration-ms="82" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[YAML data should not be null expected object to not be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: YAML data should not be null expected object to not be null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.assertNotNull(Assert.java:1483)
+at API_Test_Class.TestNG_Annotation_NestedJSON_POJO_GET_API_RestAssured_Example.testSetUp(TestNG_Annotation_NestedJSON_POJO_GET_API_RestAssured_Example.java:41)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method signature="validate_status_code()[pri:0, instance:API_Test_Class.TestNG_Annotation_NestedJSON_POJO_GET_API_RestAssured_Example@76494737]" started-at="2024-11-23T00:02:41 IST" name="validate_status_code" description="Validate Response Status code For Post_Test_Script_TC1" finished-at="2024-11-23T00:02:41 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[YAML data should not be null expected object to not be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: YAML data should not be null expected object to not be null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.assertNotNull(Assert.java:1483)
+at API_Test_Class.TestNG_Annotation_NestedJSON_POJO_GET_API_RestAssured_Example.testSetUp(TestNG_Annotation_NestedJSON_POJO_GET_API_RestAssured_Example.java:41)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_status_code -->
+        <test-method signature="validate_response_body()[pri:0, instance:API_Test_Class.TestNG_Annotation_NestedJSON_POJO_GET_API_RestAssured_Example@76494737]" started-at="2024-11-23T00:02:41 IST" name="validate_response_body" description="Validate the Response body parameters of Get API Test Case 1" finished-at="2024-11-23T00:02:41 IST" depends-on-methods="API_Test_Class.TestNG_Annotation_NestedJSON_POJO_GET_API_RestAssured_Example.validate_status_code" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method API_Test_Class.TestNG_Annotation_NestedJSON_POJO_GET_API_RestAssured_Example.validate_response_body() on instance API_Test_Class.TestNG_Annotation_NestedJSON_POJO_GET_API_RestAssured_Example@76494737 depends on not successfully finished methods 
+[API_Test_Class.TestNG_Annotation_NestedJSON_POJO_GET_API_RestAssured_Example.validate_status_code() on instance API_Test_Class.TestNG_Annotation_NestedJSON_POJO_GET_API_RestAssured_Example@76494737]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method API_Test_Class.TestNG_Annotation_NestedJSON_POJO_GET_API_RestAssured_Example.validate_response_body() on instance API_Test_Class.TestNG_Annotation_NestedJSON_POJO_GET_API_RestAssured_Example@76494737 depends on not successfully finished methods 
+[API_Test_Class.TestNG_Annotation_NestedJSON_POJO_GET_API_RestAssured_Example.validate_status_code() on instance API_Test_Class.TestNG_Annotation_NestedJSON_POJO_GET_API_RestAssured_Example@76494737]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_response_body -->
+        <test-method is-config="true" signature="evidenceCreator()[pri:0, instance:API_Test_Class.TestNG_Annotation_NestedJSON_POJO_GET_API_RestAssured_Example@76494737]" started-at="2024-11-23T00:02:41 IST" name="evidenceCreator" finished-at="2024-11-23T00:02:41 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evidenceCreator -->
+      </class> <!-- API_Test_Class.TestNG_Annotation_NestedJSON_POJO_GET_API_RestAssured_Example -->
+      <class name="API_Test_Class.TestNG_Annotation_POJO_RestAsssured_Example">
+        <test-method is-config="true" signature="testSetUp()[pri:0, instance:API_Test_Class.TestNG_Annotation_POJO_RestAsssured_Example@792b749c]" started-at="2024-11-23T00:02:41 IST" name="testSetUp" finished-at="2024-11-23T00:02:41 IST" duration-ms="232" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[YAML data should not be null expected object to not be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: YAML data should not be null expected object to not be null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.assertNotNull(Assert.java:1483)
+at API_Test_Class.TestNG_Annotation_POJO_RestAsssured_Example.testSetUp(TestNG_Annotation_POJO_RestAsssured_Example.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method signature="validator()[pri:0, instance:API_Test_Class.TestNG_Annotation_POJO_RestAsssured_Example@792b749c]" started-at="2024-11-23T00:02:41 IST" name="validator" description="Validate the response body parameters of Post API Test Case 1" finished-at="2024-11-23T00:02:41 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[YAML data should not be null expected object to not be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: YAML data should not be null expected object to not be null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.assertNotNull(Assert.java:1483)
+at API_Test_Class.TestNG_Annotation_POJO_RestAsssured_Example.testSetUp(TestNG_Annotation_POJO_RestAsssured_Example.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validator -->
+        <test-method is-config="true" signature="evidenceCreator()[pri:0, instance:API_Test_Class.TestNG_Annotation_POJO_RestAsssured_Example@792b749c]" started-at="2024-11-23T00:02:41 IST" name="evidenceCreator" finished-at="2024-11-23T00:02:41 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evidenceCreator -->
+      </class> <!-- API_Test_Class.TestNG_Annotation_POJO_RestAsssured_Example -->
+    </test> <!-- UI_API_ParallelTest -->
+  </suite> <!-- UI_API_Suite -->
+</testng-results>

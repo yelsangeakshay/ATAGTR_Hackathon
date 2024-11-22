@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UI_API_Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="classes" name="UI_API_ParallelTest(failed)" verbose="0">
+    <classes>
+      <class name="API_Test_Class.TestNG_Annotation_POJO_RestAsssured_Example">
+        <methods>
+          <include name="evidenceCreator"/>
+          <include name="validator"/>
+          <include name="testSetUp"/>
+        </methods>
+      </class> <!-- API_Test_Class.TestNG_Annotation_POJO_RestAsssured_Example -->
+      <class name="API_Test_Class.TestNG_Annotation_NestedJSON_POJO_GET_API_RestAssured_Example">
+        <methods>
+          <include name="testSetUp"/>
+          <include name="validate_status_code"/>
+          <include name="evidenceCreator"/>
+          <include name="validate_response_body"/>
+        </methods>
+      </class> <!-- API_Test_Class.TestNG_Annotation_NestedJSON_POJO_GET_API_RestAssured_Example -->
+      <class name="UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks">
+        <methods>
+          <include name="testSetUp"/>
+          <include name="validateListHyperlinks"/>
+          <include name="launchAmazon"/>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks -->
+    </classes>
+  </test> <!-- UI_API_ParallelTest(failed) -->
+</suite> <!-- Failed suite [UI_API_Suite] -->

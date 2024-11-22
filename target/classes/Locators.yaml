@@ -1,0 +1,2 @@
+Amazon_Locators:
+ Amazon_Home_Account_List_Hy_Link: //span[text()="Account & Lists"]/..

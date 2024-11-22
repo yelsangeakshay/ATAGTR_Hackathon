@@ -1,0 +1,23 @@
+Amazon_Variables:
+ URL: https://www.amazon.in/
+ List_To_Verify: Your Lists
+ 
+LinkedIN_Variables:
+ URL: https://www.linkedin.com/
+ List_To_Verify: Your Lists
+ 
+GET_API_Variable:
+ Hostname: https://reqres.in/
+ Headername: Content-Type
+ Headervalue: application/json
+ Resource: api/users?page=2
+ ExpectedStatusCode: 200
+ 
+POST_API_Variable:
+ Hostname: https://reqres.in/
+ Headername: Content-Type
+ Headervalue: application/json
+ Resource: api/users
+ ExpectedStatusCode: 201
+ Req_Body_Name: morpheus
+ Req_Body_Job: QA

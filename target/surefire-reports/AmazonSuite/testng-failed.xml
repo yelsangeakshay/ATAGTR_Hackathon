@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AmazonSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="AmazonTest(failed)" verbose="0">
+    <classes>
+      <class name="Mobile_Test_Class.Mobile_Test_Class">
+        <methods>
+          <include name="startup"/>
+          <include name="teardown"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- Mobile_Test_Class.Mobile_Test_Class -->
+    </classes>
+  </test> <!-- AmazonTest(failed) -->
+</suite> <!-- Failed suite [AmazonSuite] -->

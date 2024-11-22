@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UI_API_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="UI_API_ParallelTest(failed)">
+    <classes>
+      <class name="UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks">
+        <methods>
+          <include name="testSetUp"/>
+          <include name="launchAmazon"/>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks -->
+    </classes>
+  </test> <!-- UI_API_ParallelTest(failed) -->
+</suite> <!-- Failed suite [UI_API_Suite] -->
