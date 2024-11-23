@@ -1,2 +1,39 @@
 Amazon_Locators:
  Amazon_Home_Account_List_Hy_Link: //span[text()="Account & Lists"]/..
+
+ 
+Koha_Locators:
+ userId: //input[@name="login_userid"]
+ password: //input[@name="login_password"]
+ submitBtn: //input[@id="submit-button"]
+ adminBtn: //a[text()="Koha administration"]
+ libraryLabel:  //a[text()="Libraries"]
+ newLibraryBtn:  //a[text()=" New library"]
+ branchCode: //input[@name="branchcode"]
+ branchName:  //input[@name="branchname"]
+ libraryBtn: //*[@id="Aform"]/fieldset[3]/input
+ patronSearch: //input[@name="findborrower"]
+ moreBtn: //*[@id="toolbar"]/div[2]/button
+ setPermission: //a[text()="Set permissions"]
+ superLibrarian: //input[@value="superlibrarian"]
+ libraries_:  //a[text()="Libraries"]
+
+ 
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+

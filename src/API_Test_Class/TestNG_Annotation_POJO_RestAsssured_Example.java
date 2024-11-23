@@ -38,7 +38,8 @@ public class TestNG_Annotation_POJO_RestAsssured_Example {
 		System.out.println("Before Test Method Called");
 		dir_name = Utility_Methods.CreateLogDirectory("Post_API_Logs");
 		// Read data variables yaml
-		yamlData = Utility_Methods.readYamlFile("Resources/Variable.yaml");
+		String absolutePath = "D:\\Autothon\\Hackathon_Git\\testautothon2024-main\\src\\Resources\\Variable.yaml";
+		yamlData = Utility_Methods.readYamlFile(absolutePath);
 		Assert.assertNotNull(yamlData, "YAML data should not be null");
 		postApiVariable = (Map<String, Object>) yamlData.get("POST_API_Variable");
 		Endpoint = (String) postApiVariable.get("Hostname") + (String) postApiVariable.get("Resource");

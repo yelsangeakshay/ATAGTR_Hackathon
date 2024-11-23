@@ -1,5 +1,6 @@
 UI_Page_Objects\Amazon_Home_Page_Object.class
 API_Test_Class\TestNG_Annotation_POJO_RestAsssured_Example.class
+UI_Test_Class\TC_Koha_Hackathon_3.class
 API_POJO\Pojo_GET_API_Data_Array.class
 UI_Common_Methods\InstantiateWebDriver.class
 Mobile_Test_Class\Mobile_Test_Class.class
@@ -18,5 +19,6 @@ UI_Test_Class\TC_Linkedin.class
 Common_Utilities\Utility_Methods.class
 Mobile_Common_Utility\mobile_Common_Method.class
 UI_Common_Methods\UI_Building_Blocks.class
-UI_Test_Class\TC_Amazon_Verify_Account_List_HyperLinks.class
+UI_Test_Class\TC_Koha_Hackathon.class
+UI_Page_Objects\Koha_Home_Page_Object.class
 API_POJO\Pojo_Post_API.class

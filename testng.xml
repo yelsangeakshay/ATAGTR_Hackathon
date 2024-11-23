@@ -3,7 +3,7 @@
 <suite name="AmazonSuite">
   <test name="AmazonTest">
     <classes>     
-      <class name="UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks"/>
+      <class name="UI_Test_Class.TC_Koha_hackathon"/>
     </classes>
   </test> <!-- AmazonTest -->
 </suite> <!-- AmazonSuite -->

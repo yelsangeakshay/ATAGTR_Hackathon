@@ -1,6 +1,13 @@
-Amazon_Variables:
- URL: https://www.amazon.in/
- List_To_Verify: Your Lists
+Koha_Variables:
+ URL: http://34.148.101.249:8081/
+ OPAC_URL: http://34.148.101.249:8080/
+ Username: Ruth.Shanahan
+ Password: _5zJn2paso
+ librarycode: GTRHACK
+ branchName: Me Mother’s Library
+ searchText: Mr Roshan
+
+
  
 LinkedIN_Variables:
  URL: https://www.linkedin.com/

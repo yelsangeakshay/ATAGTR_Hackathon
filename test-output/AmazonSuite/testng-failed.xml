@@ -7,6 +7,7 @@
         <methods>
           <include name="testSetUp"/>
           <include name="launchAmazon"/>
+          <include name="validateListHyperlinks"/>
           <include name="cleanup"/>
         </methods>
       </class> <!-- UI_Test_Class.TC_Amazon_Verify_Account_List_HyperLinks -->

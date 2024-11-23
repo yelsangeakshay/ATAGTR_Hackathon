@@ -82,7 +82,7 @@ public class UI_Building_Blocks {
 		WebDriverWait expwait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
 		WebElement element = expwait.until(ExpectedConditions.elementToBeClickable(Element));
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].scroll-IntoView(true);", element);
+		js.executeScript("arguments[0].scrollIntoView(true);", element);
 		element.click();
 	}
 
@@ -121,7 +121,8 @@ public class UI_Building_Blocks {
 		WebDriverWait expwait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
 		expwait.until(ExpectedConditions.elementToBeClickable(Element));
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].scroll-IntoView(true);", Element);
+		js.executeScript("arguments[0].scrollIntoView(true);", Element);
+		
 	}
 
 	@Step("Switch_Frame")
